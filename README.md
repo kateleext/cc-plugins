@@ -5,7 +5,11 @@ Episodic memory for Claude Code. Search and recall past conversations.
 ## Installation
 
 ```bash
+# Add the marketplace
 /plugin marketplace add kateleext/deja-plugin
+
+# Install the plugin
+/plugin install deja@deja
 ```
 
 ## What's Included
