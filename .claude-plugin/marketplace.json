@@ -1,12 +1,12 @@
 {
-  "name": "deja",
+  "name": "kateleext",
   "owner": {
     "name": "kateleext"
   },
   "plugins": [
     {
       "name": "deja",
-      "source": "./",
+      "source": "./plugins/deja",
       "description": "Episodic memory for Claude Code - search and recall past conversations",
       "version": "1.0.0"
     }
