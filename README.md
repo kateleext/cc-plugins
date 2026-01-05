@@ -44,7 +44,7 @@ deja <session> +note "..."  # Add a note
 ```
 
 **Todo Support:**
-- Indexes both `todowrite` tool calls and native OpenCode interface todos
+- Indexes both `todowrite` tool calls and OpenCode interface todos
 - Search for todo content: `deja "fix bug"`, `deja "add feature"`
 - Sessions with todos get higher search ranking and show todo summaries
 
