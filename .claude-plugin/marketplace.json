@@ -9,18 +9,30 @@
     {
       "name": "deja",
       "description": "Episodic memory for Claude Code - search and recall past conversations",
+      "version": "1.0.0",
+      "author": {
+        "name": "kateleext"
+      },
       "source": "./plugins/deja",
       "category": "productivity"
     },
     {
       "name": "pdf",
       "description": "Generate beautifully styled PDFs from markdown",
+      "version": "1.0.0",
+      "author": {
+        "name": "kateleext"
+      },
       "source": "./plugins/pdf",
       "category": "productivity"
     },
     {
       "name": "youtube",
       "description": "Transcribe YouTube videos to markdown",
+      "version": "1.0.0",
+      "author": {
+        "name": "kateleext"
+      },
       "source": "./plugins/youtube",
       "category": "productivity"
     }

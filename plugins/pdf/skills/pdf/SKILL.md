@@ -1,6 +1,6 @@
 ---
-name: "pdf"
-description: "Generate beautifully styled PDFs from markdown content. Use when converting markdown to PDF, creating documents, or processing documentation folders. Supports multiple styles including minimal, corporate, technical, shokuna (dark mode), and newsletter."
+name: pdf
+description: Generate beautifully styled PDFs from markdown content. Use when converting markdown to PDF, creating documents, or processing documentation folders. Supports multiple styles including minimal, corporate, technical, shokuna (dark mode), and newsletter.
 ---
 
 # PDF Generator

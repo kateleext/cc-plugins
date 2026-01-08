@@ -1,6 +1,6 @@
 ---
-name: "youtube"
-description: "Transcribe YouTube videos to markdown. Use when user shares a YouTube URL or asks to transcribe a video. Supports YouTube captions (instant, free) and Deepgram API (high quality)."
+name: youtube
+description: Transcribe YouTube videos to markdown. Use when user shares a YouTube URL or asks to transcribe a video. Supports YouTube captions (instant, free) and Deepgram API (high quality).
 ---
 
 # YouTube Transcribe
