@@ -1,0 +1,5 @@
+fastmcp
+aiohttp
+python-dotenv
+youtube-transcript-api
+yt-dlp>=2025.9.26
