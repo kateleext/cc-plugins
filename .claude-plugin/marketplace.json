@@ -1,14 +1,28 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "kateleext",
+  "description": "Claude Code plugins by kateleext",
   "owner": {
     "name": "kateleext"
   },
   "plugins": [
     {
       "name": "deja",
-      "source": "./plugins/deja",
       "description": "Episodic memory for Claude Code - search and recall past conversations",
-      "version": "1.0.0"
+      "source": "./plugins/deja",
+      "category": "productivity"
+    },
+    {
+      "name": "pdf",
+      "description": "Generate beautifully styled PDFs from markdown",
+      "source": "./plugins/pdf",
+      "category": "productivity"
+    },
+    {
+      "name": "youtube",
+      "description": "Transcribe YouTube videos to markdown",
+      "source": "./plugins/youtube",
+      "category": "productivity"
     }
   ]
 }
