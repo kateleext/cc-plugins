@@ -23,19 +23,19 @@ export DYLD_LIBRARY_PATH="/opt/homebrew/lib:$DYLD_LIBRARY_PATH"
 
 ```bash
 # From a file (outputs to same location as source.pdf by default)
-python script.py --input /path/to/doc.md --style minimal
+pdf --input /path/to/doc.md --style minimal
 
 # From a file with custom output
-python script.py --input /path/to/doc.md --output /path/to/output.pdf
+pdf --input /path/to/doc.md --output /path/to/output.pdf
 
 # From inline markdown (--output required)
-python script.py --markdown "# Title\n\nContent" --output /path/to/output.pdf
+pdf --markdown "# Title\n\nContent" --output /path/to/output.pdf
 
 # From a folder of markdown files (--output required)
-python script.py --folder /path/to/docs/ --output /path/to/combined.pdf
+pdf --folder /path/to/docs/ --output /path/to/combined.pdf
 
 # List available styles
-python script.py --list-styles
+pdf --list-styles
 ```
 
 ## Styles

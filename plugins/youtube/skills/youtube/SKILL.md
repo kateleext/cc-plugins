@@ -13,26 +13,26 @@ Transcribe YouTube videos to markdown.
 pip install -r requirements.txt
 ```
 
-Deepgram API key is configured at the top of `script.py`.
+Deepgram API key is configured at the top of the youtube script.
 
 ## Usage
 
 ```bash
 # Basic transcription (stdout)
-python script.py --url "https://youtube.com/watch?v=VIDEO_ID"
+youtube --url "https://youtube.com/watch?v=VIDEO_ID"
 
 # Save to file
-python script.py --url "https://youtube.com/watch?v=VIDEO_ID" --output transcript.md
+youtube --url "https://youtube.com/watch?v=VIDEO_ID" --output transcript.md
 
 # With timestamps
-python script.py --url "https://youtube.com/watch?v=VIDEO_ID" --output transcript.md --timestamps
+youtube --url "https://youtube.com/watch?v=VIDEO_ID" --output transcript.md --timestamps
 
 # Force method
-python script.py --url "URL" --method captions   # Free, instant
-python script.py --url "URL" --method deepgram   # Paid, high quality
+youtube --url "URL" --method captions   # Free, instant
+youtube --url "URL" --method deepgram   # Paid, high quality
 
 # Check config
-python script.py --check-config
+youtube --check-config
 ```
 
 ## Options
